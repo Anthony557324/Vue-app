@@ -8,7 +8,8 @@ import { createApp } from 'vue'
 // 为什么js中可以引入vue文件？
 import Main from './Main.vue'
 import ChildComp from '@/component/Child.vue'
-import { ElementPlus } from "element-plus";
+import  ElementPlus  from "element-plus";
+import 'element-plus/dist/index.css';
 
 
 const app = createApp(Main)

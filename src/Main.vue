@@ -4,14 +4,13 @@ export default {
   name: 'MainComp',
   // 局部注册
   components: {
-    PartComp
+    'PartCom':PartComp
   },
   setup() {}
 }
 </script>
 <template>
-  <ChildComp></ChildComp>
-  <PartComp></PartComp>
-  <child-comp></child-comp>
-  <part-comp></part-comp>
+  <!-- <child-comp></child-comp> -->
+  <part-com msg="hello world"></part-com>
+  <el-button>这是elementui提供的</el-button>
 </template>
